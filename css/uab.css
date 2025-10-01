@@ -1,1 +1,57 @@
-/* completa */
+/* css/uab.css */
+
+/* 3. h1 en azul oscuro */
+h1 { 
+  color: darkblue; 
+}
+
+/* 4. h1 y h3 en cursiva */
+h1, h3 { 
+  font-style: italic; 
+}
+
+/* 5. Párrafos dentro de cualquier header usan Courier New */
+header p { 
+  font-family: "Courier New", Courier, monospace; 
+}
+
+/* 6. Clase fancy => Times */
+.fancy { 
+  font-family: Times, "Times New Roman", serif; 
+}
+
+/* 7. Header con clase fancy en magenta */
+header.fancy { 
+  color: magenta; 
+}
+
+/* 9. Solo en section.statistics, el header > h3 en rojo */
+section.statistics header h3 { 
+  color: red; 
+}
+
+
+/* 11. Tablas con bordes y colapso */
+table { 
+  border-collapse: collapse; 
+  border: 1px solid black; 
+}
+table th, table td { 
+  border: 1px solid black; 
+  padding: 0.3rem;
+}
+
+/* 12. Clase important solo en párrafos */
+p.important { 
+  font-weight: bold; 
+  font-size: 30px; 
+  background-color: aqua; 
+  margin: 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+}
+
+/* 13. Imágenes flotan a la izquierda con padding */
+img { 
+  float: left; 
+  padding: 0 0 0 10px; 
+}
